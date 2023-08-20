@@ -9,7 +9,7 @@
     <br>
     <p class="desc">Siempre estoy intentando mejorar mis cualidades en como el trabajo en equipo, la comunicación y flexibilidad. Siento que fortalecer esas cualidades es muy importante para lograr el objetivo principal de mi carrera como profesional.</p>
     <br>
-    <p class="desc">Busco crear sistemas informaticos útiles y usables para facilitarles la vida a las personas. Como adición, me encanta cocinar y ver las partidas competitivas de KOI, un equipo de Esports. </p>
+    <p class="desc">Busco crear sistemas informaticos útiles y usables para facilitarles la vida a las personas. Por ultimo, me encanta cocinar y ver las partidas competitivas de KOI, un equipo de Esports. </p>
 
     <img src="{img}" alt="Chaves Laureano Neyén Foto"/>
 </main>

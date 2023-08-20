@@ -39,12 +39,12 @@ export let chevron
 
 .subtitulo{
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 1rem;
     margin: 0;
 }
 
 .desc{
-    font-size: 0.625rem;
+    font-size: 0.75rem;
     margin: 0;
 }
 
