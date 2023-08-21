@@ -1,5 +1,6 @@
 <script>
-    import Item from "./components/Item.svelte";
+    import {Link} from 'svelte-routing'
+import Item from "./components/Item.svelte";
   </script>
   
   <main>
@@ -16,9 +17,9 @@
   
     <div class="container__item">
       <p class="item__titulo">• Proyectos</p>
-      <a href="/dolarblueactual"><Item subtitulo = "Dólar blue hoy" desc="Realizada con Svelte." img="dolar.png"  chevron="true"/></a>
-      <a href="/foodtruck"><Item subtitulo = "Foodtruck" desc="Carrito de comidas realizado con Java." img="carrito.png" chevron="true"/></a>
-      <a href="/tryhardzone"><Item subtitulo = "TryhardZone" desc="E-commerce realizado con Javascript." img="ecommerce.png" chevron="true"/></a>
+      <Link to="/dolarblueactual"><Item subtitulo = "Dólar blue hoy" desc="Realizada con Svelte." img="dolar.png"  chevron="true"/></Link>
+      <Link to="/foodtruck"><Item subtitulo = "Foodtruck" desc="Carrito de comidas realizado con Java." img="carrito.png" chevron="true"/></Link>
+      <Link to="/tryhardzone"><Item subtitulo = "TryhardZone" desc="E-commerce realizado con Javascript." img="ecommerce.png" chevron="true"/></Link>
     </div>
   
     <div class="container__item">

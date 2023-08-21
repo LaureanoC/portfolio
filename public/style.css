@@ -25,3 +25,7 @@ body {
     -ms-user-select: none; /* IE/Edge */
     user-select: none; /* estándar */
 }
+
+a{
+	color: inherit;
+}
