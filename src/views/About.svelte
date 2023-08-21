@@ -5,7 +5,7 @@
 <main>
     <p class="item">• Sobre mí</p>
     <h1 class="titulo">Me llamo Laureano Neyén Chaves</h1>
-    <p class="desc">Actualmente tengo 22 años, resido en la ciudad de Arrecifes, provincia Buenos Aires, Argentina. Me encuentro estudiando Ingeniería en Sistemas de la Información en la Universidad Tecnológica Nacional de Rosario.</p>
+    <p class="desc">Actualmente tengo 22 años, resido en la ciudad de Rosario, provincia Santa Fe, Argentina. Me encuentro estudiando Ingeniería en Sistemas de la Información en la Universidad Tecnológica Nacional.</p>
     <br>
     <p class="desc">Siempre estoy intentando mejorar mis cualidades en como el trabajo en equipo, la comunicación y flexibilidad. Siento que fortalecer esas cualidades es muy importante para lograr el objetivo principal de mi carrera como profesional.</p>
     <br>
