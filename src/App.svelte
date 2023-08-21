@@ -5,9 +5,11 @@ import Home from './views/Home.svelte'
 import About from './views/About.svelte'
 import Education from './views/Education.svelte';
 import Contacto from './views/Contacto.svelte';
+import Dolar from './views/Dolar.svelte'
+import Tryhard from './views/Tryhard.svelte'
+    import Foodtruck from './views/Foodtruck.svelte';
 
 export let clase = 1; 
-let numeros = [1, 0, 0, 0];
 
 function cambiarClase(e) {
     console.log("Click")
@@ -29,8 +31,6 @@ function cambiarClase(e) {
         clase = 4
     }
 
-
-    
 }
 
 </script>
@@ -44,11 +44,23 @@ function cambiarClase(e) {
 				<Link to="/about"><i class="fa-solid fa-user {clase == 2 ? "actual" : ""}" on:click={cambiarClase} ></i></Link>
 				<Link to="/education"><i class="fa-solid fa-graduation-cap {clase == 3 ? "actual" : ""}" on:click={cambiarClase} ></i></Link>
 				<Link to="/contact"><i class="fa-solid fa-address-book {clase == 4 ? "actual" : ""}" on:click={cambiarClase} ></i></Link>
+                <div class="brands">
+                    
+                    <a href="https://instagram.com/laureano.chaves" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/LaureanoC" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+                    <a href="https://www.linkedin.com/in/laureano-neyén-chaves/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+
+
+
+                </div>
 			</div>
 			<Route path="/"><Home/></Route>
 			<Route path="/about"><About img="yo2.jpg"/></Route>
 			<Route path="/education"><Education/></Route>
             <Route path="/contact"><Contacto/></Route>
+            <Route path="/dolarblueactual"><Dolar/></Route>
+            <Route path="/foodtruck"><Foodtruck/></Route>
+            <Route path="/tryhardzone"><Tryhard/></Route>
 		</Router>
 	
 </header>
@@ -92,6 +104,18 @@ i:hover{
 
 .actual{
     color: rgb(107, 78, 255);
+}
+
+.brands{
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.brands__p{
+    margin: 0;
+    font-size: 1rem;
+
 }
 
 </style>

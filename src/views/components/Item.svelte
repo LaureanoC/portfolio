@@ -31,6 +31,11 @@ export let chevron
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.13);
 }
 
+.container:hover{
+    transition: 2s;
+    box-shadow: 0px 5px 5px #6B4EFF;
+}
+
 .container__desc{
     display: flex;
     flex-direction: column;

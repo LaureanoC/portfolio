@@ -10,9 +10,9 @@ import Item from './components/Item.svelte'
 
     <div class="container__item">
         <p class="item__titulo">• Educación</p>
-        <a href="/dolarblueactual"><Item subtitulo = "Ingeniería en Sistemas de la Información" desc="2019 - Actualidad (18/35)" img="utn.png"  chevron="true"/></a>
-        <a href="/foodtruck"><Item subtitulo = "Oracle Next Education" desc="2022 - Oracle y Alura Latam" img="oracle.png" chevron="true"/></a>
-        <a href="/tryhardzone"><Item subtitulo = "Formación Fullstack Python" desc="2021 - Codo a codo 4.0" img="codo.png" chevron="true"/></a>
+        <Item subtitulo = "Ingeniería en Sistemas de la Información" desc="2019 - Actualidad (18/35)" img="utn.png"  chevron="false"/>
+        <Item subtitulo = "Oracle Next Education" desc="2022 - Oracle y Alura Latam" img="oracle.png" chevron="false"/>
+        <Item subtitulo = "Formación Fullstack Python" desc="2021 - Codo a codo 4.0" img="codo.png" chevron="false"/>
       </div>
   
 </main>
