@@ -94,4 +94,12 @@
       font-size: 0.75rem;
       margin-top: 1rem;
     }
+
+@media (max-width: 450px) {
+
+        main{
+        width: 90%;
+    
+}
+}
   </style>

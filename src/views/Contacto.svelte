@@ -83,4 +83,15 @@
         color: white;
         cursor: pointer;
     }
+
+    @media (max-width: 450px) {
+
+main{
+width: 90%;
+}
+
+input{
+    flex-basis: 100%;
+}
+}
 </style>

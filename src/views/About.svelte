@@ -45,4 +45,12 @@
         font-weight: 500;
         line-height: 1.8;
     }
+@media (max-width: 450px) {
+
+        main{
+        width: 90%;
+    
+}
+}
+    
 </style>

@@ -12,21 +12,15 @@ import Tryhard from './views/Tryhard.svelte'
 export let clase = 1; 
 
 function cambiarClase(e) {
-    console.log("Click")
-    console.log(e.target.classList)
-
     if(e.target.classList[1] == 'fa-house'){
         clase = 1
     }
-
     if(e.target.classList[1] == 'fa-user'){
         clase = 2
     }
-
     if(e.target.classList[1] == 'fa-graduation-cap'){
         clase = 3
     }
-
     if(e.target.classList[1] == 'fa-address-book'){
         clase = 4
     }
@@ -112,10 +106,15 @@ i:hover{
     gap: 1rem;
 }
 
-.brands__p{
-    margin: 0;
-    font-size: 1rem;
 
+@media (max-width: 450px) {
+
+    .container{
+        width: 90%;
+        
+    }
 }
+    
+
 
 </style>

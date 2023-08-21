@@ -64,4 +64,12 @@ main{
         color: white;
         cursor: pointer;
     }
+
+    @media (max-width: 450px) {
+
+main{
+width: 90%;
+
+}
+}
 </style>
