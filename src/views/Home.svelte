@@ -19,6 +19,7 @@ import Item from "./components/Item.svelte";
       <p class="item__titulo">• Proyectos</p>
       <Link to="/dolarblueactual"><Item subtitulo = "Dólar blue hoy" desc="Realizada con Svelte." img="dolar.png"  chevron="true"/></Link>
       <Link to="/foodtruck"><Item subtitulo = "Foodtruck" desc="Carrito de comidas realizado con Java." img="carrito.png" chevron="true"/></Link>
+      <Link to="/academia"><Item subtitulo = "Academia" desc="Sistema de gestión académico realizado con NET." img="csharpexample.png" chevron="true"/></Link>
       <Link to="/tryhardzone"><Item subtitulo = "TryhardZone" desc="E-commerce realizado con Javascript." img="ecommerce.png" chevron="true"/></Link>
     </div>
   
@@ -27,6 +28,7 @@ import Item from "./components/Item.svelte";
       <Item subtitulo = "MySQL" desc="Creación de base de datos y consultas complejas." img="mysql.png" chevron="false"/>
       <Item subtitulo = "Java" desc="JDBC y JSP sin Frameworks." img="java.png" chevron="false"/>
       <Item subtitulo = "Svelte" desc="Lo esencial para desarrollar aplicaciones web." img="svelte.png" chevron="false"/>
+      <Item subtitulo = "C#" desc="WinForms y Blazor" img="csharp.png" chevron="false"/>
     </div>
     
   </main>

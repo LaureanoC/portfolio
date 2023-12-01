@@ -3,11 +3,12 @@
 import {Router, Route, Link} from 'svelte-routing'
 import Home from './views/Home.svelte'
 import About from './views/About.svelte'
-import Education from './views/Education.svelte';
-import Contacto from './views/Contacto.svelte';
+import Education from './views/Education.svelte'
+import Contacto from './views/Contacto.svelte'
 import Dolar from './views/Dolar.svelte'
 import Tryhard from './views/Tryhard.svelte'
-    import Foodtruck from './views/Foodtruck.svelte';
+import Foodtruck from './views/Foodtruck.svelte'
+import Academia from './views/Academia.svelte'
 
 export let clase = 1; 
 
@@ -55,6 +56,7 @@ function cambiarClase(e) {
             <Route path="/dolarblueactual"><Dolar/></Route>
             <Route path="/foodtruck"><Foodtruck/></Route>
             <Route path="/tryhardzone"><Tryhard/></Route>
+            <Route path="/academia"><Academia/></Route>
 		</Router>
 	
 </header>
